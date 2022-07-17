@@ -1,2 +1,0 @@
-# Osipple.github.io
-Webpage

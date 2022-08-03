@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+	<meta charset="utf-8">
+	<title> MBD4L Order Form</title>
+	<link rel="stylesheet" href="calc.css">
+</head>
+<body bgcolor="#F5A462">
+	<h1><i> MBD4L Order Form</i></h1><br>
+	<form name="order">
+	<b>Customer Name <input type="text" size=20/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<b>Email Address </b> <input type="text" size=20/><br><br>
+	<table align="center">
+	    <tr>
+	    <th>Clothing Image </th>
+	    <th> Clothing Choice</th>
+	    <th>Quantity</th>
+	    <th>Unit Price</th>
+	    <th>Total Price</th>
+
+	    </tr>
+	    <tr>
+	       <td> <img src="shirts.png" width="200" height="200"></td>
+		<td><input type="checkbox" value="Tops">Tops</input></td>
+		<td><input type="text" size=10></input></td>
+		<td><input type="text" value="15.00" readonly size=10></td>
+		<td><input type="text" size=10 disabled></td>
+	    </tr>
+ 	    <tr>
+	       <td> <img src="pants.png" width="200" height="200"></td>
+		<td><input type="checkbox" value="Bottoms">Bottoms</input></td>
+		<td><input type="text" size=10></input></td>
+		<td><input type="text" value="25.00" readonly size=10></td>
+		<td><input type="text" size=10 disabled></td>
+	    <tr>
+	       <td> <img src="shoes.png" width="200" height="200"></td>
+		<td><input type="checkbox" value="Shoes">Shoes</input></td>
+		<td><input type="text" size=10></input></td>
+		<td><input type="text" value="100.00" readonly size=10></td>
+		<td><input type="text" size=10 disabled></td>
+	    </tr>
+	    <tr>
+	    <td></td>
+	    <td></td>
+            <td></td>
+	    <td>Total</td>
+	    <td><input type="text" size=10 disabled></td>
+	    </tr>
+	    <tr>
+		<td colspan=5><input type="Submit" value="Calculate Order Total" class="btn"></input>
+		<td colspan=2><input type="reset" value="Clear Order" class="btn"></input></td>
+	    </tr>
+	    </table>
+	</form>
+</body>
+
+</body>
+</html>
+	
